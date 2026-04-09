@@ -28,14 +28,8 @@ models/
 outputs/
 
 # Local metadata generated during runs
-metadata/catalogue.csv
-metadata/pairing_table.csv
-metadata/split_indices.json
-metadata/experiment_registry.jsonl
-metadata/segmentation_split.json
-metadata/cross_validation/
+metadata/
 
 # Keep lightweight public docs
 !docs/
 !docs/**
-
