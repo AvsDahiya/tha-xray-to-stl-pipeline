@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments and local tooling
+.venv/
+.matplotlib/
+
+# macOS
+.DS_Store
+
+# Logs and runtime artefacts
+logs/
+*.log
+tensorboard/
+
+# Raw and processed datasets
+data_raw/
+data_intermediate/
+data_processed/
+Pre-operative domain (source)/
+Post-operative domain (target)/
+annotations/
+
+# Large local artefacts
+models/
+outputs/
+
+# Local metadata generated during runs
+metadata/catalogue.csv
+metadata/pairing_table.csv
+metadata/split_indices.json
+metadata/experiment_registry.jsonl
+metadata/segmentation_split.json
+metadata/cross_validation/
+
+# Keep lightweight public docs
+!docs/
+!docs/**
+
