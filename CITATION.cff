@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using this metadata."
+title: "THA X-Ray to STL Pipeline"
+type: software
+authors:
+  - family-names: "Dahiya"
+    given-names: "Aditya Vikram Singh"
+    alias: "AvsDahiya"
+repository-code: "https://github.com/AvsDahiya/tha-xray-to-stl-pipeline"
+url: "https://github.com/AvsDahiya/tha-xray-to-stl-pipeline"
+abstract: >
+  Dissertation research codebase for synthetic pre-operative to post-operative
+  hip X-ray translation, implant segmentation, coarse 3D reconstruction, STL
+  export, ablation studies, and 5-fold cross-validation.
+keywords:
+  - medical-imaging
+  - xray
+  - pix2pix
+  - image-to-image-translation
+  - pytorch
+  - hip-implant
+  - segmentation
+  - 3d-reconstruction
+  - stl
+  - dissertation
+license: "MIT"
+version: "1.0.0"
+date-released: 2026-04-09
